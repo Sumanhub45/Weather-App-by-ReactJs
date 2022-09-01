@@ -1,0 +1,72 @@
+.header{
+    background-color: #d44949;
+    padding: 20px;
+    text-align: center;
+}
+
+body{
+   background-image: linear-gradient(to right, #cd53ec, #f1ffc0);
+}
+
+.inputfile{
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.btn{
+    margin-left: 5px;
+    text-align: center;
+    background-color: aqua;
+    width: 200px;
+    height:65px;
+    margin-bottom: 16px;
+    margin-top: 5px;
+}
+
+.card{
+    margin:5px 5px;
+    height: 130px;
+    width: 400px;
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.card:hover{
+    background-color: #49d49f;
+}
+
+.btn:hover{
+    background-color: #49d49f;
+}
+
+.conn{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: darkcyan;
+}
+
+.card-data{
+margin-top: auto;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+    .card{
+        width: 100%;
+    }
+}
+          
